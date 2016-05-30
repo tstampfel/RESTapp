@@ -15,7 +15,7 @@
                     $.each(data.value, function (index, product) {
                        
 
-                        productDiv.append("<div>" + product.ProductName + "</div>");
+                        productDiv.append("<div>" + product.ProductName + " </div>");
 
                     })
                 },
