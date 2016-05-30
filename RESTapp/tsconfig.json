@@ -1,0 +1,22 @@
+{
+  "compileOnSave": true,
+  "compilerOptions": {
+    "noImplicitAny": false,
+    "noEmitOnError": true,
+    "removeComments": false,
+    "sourceMap": true,
+    "target": "es5",
+    "outFile": "./scripts/main.js"
+
+  },
+  "files": [
+    "./TS/Supliers.ts",
+    "./TS/Products.ts",
+    "./Scripts/typings/jquery/jquery.d.ts"
+         
+  ],
+  "exclude": [
+    "node_modules",
+    "wwwroot"
+  ]
+}
